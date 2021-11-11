@@ -30,6 +30,7 @@ public class UserBuilder {
         userDTO.setCidade(user.getCidade());
         userDTO.setEstado(user.getEstado());
         userDTO.setLogradouro(user.getLogradouro());
+        userDTO.setSenha(user.getSenha());
         return userDTO;
     }
 }
