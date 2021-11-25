@@ -1,8 +1,15 @@
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/User.java
-/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserBuilder.java
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/DesenvolvimentoSoftware3Application.java
-/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserRestAPI.java
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserServiceImpl.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/Sintoma.java
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserRepository.java
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserService.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaRepository.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaService.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserBuilder.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserRestAPI.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaServiceImpl.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaDTO.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaRestAPI.java
 /Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/user/UserDTO.java
+/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/src/main/java/com/example/desenvolvimento_software_3/application/sintoma/SintomaBuilder.java

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.desenvolvimento_software_3.DesenvolvimentoSoftware3ApplicationTests" time="4.699" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.desenvolvimento_software_3.DesenvolvimentoSoftware3ApplicationTests" time="4.412" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -36,7 +36,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/target/surefire/surefirebooter6662535616446417051.jar"/>
+    <property name="surefire.real.class.path" value="/Users/viniciusstein/Dev/git/Dev_e3/Desenvolvimento_Software_3/target/surefire/surefirebooter4827880588640558334.jar"/>
     <property name="jdk.boot.class.path.append" value=""/>
     <property name="sun.boot.class.path" value="/Users/viniciusstein/Dev/sapjvm_8/jre/lib/resources.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/rt.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/sunrsasign.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/jsse.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/jce.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/charsets.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/lib/jfr.jar:/Users/viniciusstein/Dev/sapjvm_8/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -68,5 +68,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="com.sap.vm.compressedoops" value="true"/>
   </properties>
-  <testcase name="contextLoads" classname="com.example.desenvolvimento_software_3.DesenvolvimentoSoftware3ApplicationTests" time="0.076"/>
+  <testcase name="contextLoads" classname="com.example.desenvolvimento_software_3.DesenvolvimentoSoftware3ApplicationTests" time="0.071"/>
 </testsuite>

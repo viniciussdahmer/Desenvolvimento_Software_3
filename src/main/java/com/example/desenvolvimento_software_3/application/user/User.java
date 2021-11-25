@@ -1,6 +1,9 @@
 package com.example.desenvolvimento_software_3.application.user;
 
+import com.example.desenvolvimento_software_3.application.sintoma.Sintoma;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "USERS")
@@ -32,6 +35,9 @@ public class User {
 
     @Column(name = "SENHA")
     private String senha;
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private List<Sintoma> sintomas;
 
     public Long getId() {
         return id;
@@ -95,5 +101,13 @@ public class User {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public List<Sintoma> getSintomas() {
+        return sintomas;
+    }
+
+    public void setSintomas(List<Sintoma> sintomas) {
+        this.sintomas = sintomas;
     }
 }

@@ -1,8 +1,15 @@
+com/example/desenvolvimento_software_3/application/user/UserServiceImpl.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaDTO.class
+com/example/desenvolvimento_software_3/application/sintoma/Sintoma.class
+com/example/desenvolvimento_software_3/application/user/UserRepository.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaBuilder.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaRepository.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaServiceImpl.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaService.class
 com/example/desenvolvimento_software_3/DesenvolvimentoSoftware3Application.class
 com/example/desenvolvimento_software_3/application/user/UserService.class
 com/example/desenvolvimento_software_3/application/user/UserDTO.class
-com/example/desenvolvimento_software_3/application/user/UserServiceImpl.class
 com/example/desenvolvimento_software_3/application/user/User.class
 com/example/desenvolvimento_software_3/application/user/UserRestAPI.class
-com/example/desenvolvimento_software_3/application/user/UserRepository.class
+com/example/desenvolvimento_software_3/application/sintoma/SintomaRestAPI.class
 com/example/desenvolvimento_software_3/application/user/UserBuilder.class

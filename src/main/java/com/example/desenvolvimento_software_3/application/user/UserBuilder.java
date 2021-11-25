@@ -1,5 +1,10 @@
 package com.example.desenvolvimento_software_3.application.user;
 
+import com.example.desenvolvimento_software_3.application.sintoma.Sintoma;
+import com.example.desenvolvimento_software_3.application.sintoma.SintomaBuilder;
+
+import java.util.stream.Collectors;
+
 public class UserBuilder {
 
     public static User fromDTO(UserDTO userDTO) {
@@ -31,6 +36,7 @@ public class UserBuilder {
         userDTO.setEstado(user.getEstado());
         userDTO.setLogradouro(user.getLogradouro());
         userDTO.setSenha(user.getSenha());
+        //userDTO.setSintomas(user.getSintomas().stream().map(SintomaBuilder::fromEntity).collect(Collectors.toList()));
         return userDTO;
     }
 }

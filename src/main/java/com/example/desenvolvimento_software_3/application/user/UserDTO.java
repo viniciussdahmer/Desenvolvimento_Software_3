@@ -1,6 +1,9 @@
 package com.example.desenvolvimento_software_3.application.user;
 
+import com.example.desenvolvimento_software_3.application.sintoma.SintomaDTO;
+
 import javax.persistence.Column;
+import java.util.List;
 
 public class UserDTO {
 
@@ -11,6 +14,7 @@ public class UserDTO {
     private String cidade;
     private String logradouro;
     private String senha;
+    private List<SintomaDTO> sintomas;
 
     public String getFirstName() {
         return firstName;
@@ -66,5 +70,13 @@ public class UserDTO {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public List<SintomaDTO> getSintomas() {
+        return sintomas;
+    }
+
+    public void setSintomas(List<SintomaDTO> sintomas) {
+        this.sintomas = sintomas;
     }
 }
