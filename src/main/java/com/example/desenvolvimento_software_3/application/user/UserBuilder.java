@@ -36,7 +36,7 @@ public class UserBuilder {
         userDTO.setEstado(user.getEstado());
         userDTO.setLogradouro(user.getLogradouro());
         userDTO.setSenha(user.getSenha());
-        //userDTO.setSintomas(user.getSintomas().stream().map(SintomaBuilder::fromEntity).collect(Collectors.toList()));
+        userDTO.setSintomas(user.getSintomas().stream().map(SintomaBuilder::fromEntity).collect(Collectors.toList()));
         return userDTO;
     }
 }

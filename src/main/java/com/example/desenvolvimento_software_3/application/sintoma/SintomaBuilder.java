@@ -24,7 +24,7 @@ public class SintomaBuilder {
         SintomaDTO sintomaDTO = new SintomaDTO();
         sintomaDTO.setDateTime(sintoma.getDateTime());
         sintomaDTO.setDescription(sintoma.getDescription());
-        sintomaDTO.setUserDTO(UserBuilder.fromEntity(sintoma.getUser()));
+        //sintomaDTO.setUserDTO(UserBuilder.fromEntity(sintoma.getUser()));
         return sintomaDTO;
     }
 }

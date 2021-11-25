@@ -23,9 +23,9 @@ public class UserRestAPI {
     }
 
     @PostMapping
-    @ResponseBody
-    public UserDTO create(@RequestBody UserDTO userDTO) {
-        return UserBuilder.fromEntity(userService.create(UserBuilder.fromDTO(userDTO)));
+    @ResponseStatus(HttpStatus.OK)
+    public void create(@RequestBody UserDTO userDTO) {
+        userService.create(UserBuilder.fromDTO(userDTO));
     }
 
     @GetMapping("/{id}")
@@ -35,8 +35,8 @@ public class UserRestAPI {
     }
 
     @PutMapping("/{userId}/update")
-    public UserDTO update(@RequestBody UserDTO userDTO, @PathVariable Long userId) {
-        return UserBuilder.fromEntity(userService.update(UserBuilder.fromDTO(userDTO), userId));
+    public void update(@RequestBody UserDTO userDTO, @PathVariable Long userId) {
+        userService.update(UserBuilder.fromDTO(userDTO), userId);
     }
 
     @DeleteMapping("/{id}/delete")
